@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    border-radius: 30%;
+  }
+  
+  body {
+    background-color: #001a33; /* Dark blue background */
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    border-radius: 30%;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 23px;
+    border-radius: 30%;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  input {
+    border-radius: 0;
+    background-color: rgb(255, 255, 255); /* White input background */
+    border: 2px solid rgb(173, 216, 230); /* Light blue border */
+    font-size: 34px;
+    height: 65px;
+    width: 400px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 139); /* Dark Blue input numbers color */
+    box-shadow: white;
+  }
+  
+  button {
+    border-radius: 0;
+    font-size: 40px;
+    background: rgb(173, 216, 230); /* Light blue buttons background */
+    width: 90px;
+    height: 90px;
+    margin: 6px;
+    color: rgb(0, 0, 139); /* Dark blue numbers and symbol operators color */
+    border-radius: 30%;
+  }
+  
+  button:hover {
+    animation: pulse 1s infinite;
+    background-color: rgb(86, 151, 172); /* Bright blue hover color */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .calculator {
+    width: 440px;
+    height: 650px;
+    border: 2px solid rgb(173, 216, 230); /* Light blue border */
+    background-color: rgb(0, 26, 51); /* Dark blue calculator background */
+    padding: 23px;
+    border-radius: 5%;
+    display: inline-block;
+    box-shadow: white;
+    padding-top: 55px;
+  }
+  
+  h1 {
+    color: rgb(173, 216, 230); /* Light blue heading color */
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    
+  }
+  h2,h3{
+    color: rgb(173, 216, 230);
+    
+  }
+  #screen{
+    padding-top: 20px;
+    border-radius: 10px 10px;
+  }
+  h1:hover{
+    color: rgb(86, 151, 172); 
+  }
+  #screen:hover{
+    color: rgb(196, 196, 218);
+  }
+  h2:hover{
+    color: rgb(86, 151, 172); 
+  }

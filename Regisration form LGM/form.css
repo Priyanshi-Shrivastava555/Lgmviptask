@@ -1,0 +1,175 @@
+* {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bolder;
+    font-size: 17px;
+    font-style: oblique;
+  }
+  
+  body {
+    align-items: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_437743.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    border: 15px solid rgba(0, 0, 0, 0.66);
+    border-radius: 70px;
+  }
+  
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #first1 {
+    opacity: 0.7;
+  }
+  #last1 {
+    opacity: 0.7;
+  }
+  #email1 {
+    opacity: 0.7;
+  }
+  #code1 {
+    opacity: 0.7;
+  }
+  #no1 {
+    opacity: 0.7;
+  }
+  #inlineradio1 {
+    opacity: 0.7;
+  }
+  #inlineradio2 {
+    opacity: 0.7;
+  }
+  #inlinecheckbox1 {
+    opacity: 0.7;
+  }
+  #inlinecheckbox2 {
+    opacity: 0.7;
+  }
+  #inlinecheckbox3 {
+    opacity: 0.7;
+  }
+  #country {
+    opacity: 0.7;
+  }
+  div.sec-form {
+    border-right: 15px solid rgba(44, 1, 17, 0.66);
+  }
+  
+  div.sec-form,
+  div.sec-user {
+    justify-content: center !important;
+    /* display:flex; */
+    background: transparent;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  div.sec-form h1,
+  div.sec-user h1 {
+    padding-top: 3%;
+    text-align: center;
+  }
+  
+  div .gender {
+    margin-right: 2%;
+  }
+  
+  div .check2 {
+    display: flex;
+  }
+  
+  div .check1 {
+    display: flex;
+  }
+  
+  .btn2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  #enroll {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid rgba(55, 91, 234, 0.829);
+    background-color: rgba(45, 168, 216, 0.829);
+    border-radius: 40px;
+    opacity: 0.8;
+  }
+  
+  #Clear {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid rgba(55, 91, 234, 0.829);
+    background-color: rgba(45, 168, 216, 0.829);
+    border-radius: 40px;
+    opacity: 0.8;
+  }
+  .card-body p,
+  .card-body h5 {
+    color: rgb(0, 0, 0) !important;
+    opacity: 0.8;
+  }
+  
+  .card1 {
+    margin-top: 5vmin;
+    margin-bottom: auto;
+  }
+  
+  .img-fluid {
+    height: 210px !important;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  
+  .card {
+    margin-bottom: 5%;
+  }
+  
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 8px 0px;
+  }
+  
+  @media (max-width: 1140px) {
+    .col-10 {
+      padding-left: 5vmin;
+    }
+    .custom-con {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  @media (max-width: 768px) {
+    .sec-form .btn2 {
+      margin-bottom: 4vmin;
+    }
+    .sec-user {
+      border-top: 2px solid #000000;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .sec-user {
+      margin-bottom: 2%;
+    }
+  
+    .btn2 {
+      display: block;
+    }
+  
+    div .enroll1 {
+      margin-bottom: 5%;
+    }
+  }
